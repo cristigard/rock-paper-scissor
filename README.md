@@ -1,3 +1,3 @@
-# rock-paper-scissor
-Game
-Made some modification t understand how git working
+# rock-paper-scissor game
+It used random lib to generate an answer from player two.
+
