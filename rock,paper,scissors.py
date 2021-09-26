@@ -6,8 +6,6 @@ l = ["rock", "scissor", "paper"]
 while player_1_mist<3 and player_2_mist<3:
     player_1 = str(input('Player 1: rock, scissor or paper?'))
 
-
-
     if player_1 not in l:
         print("\nPlayer 1 entered an invalid word:",player_1+".","Please write rock, scissor or paper!\n")
         continue
@@ -49,7 +47,6 @@ while player_1_mist<3 and player_2_mist<3:
         player_1_mist += 1
         print("\nPlayer 2 wins!\n")
         print("Scor:\nPlayer 1:", player_1_mist,"\nPlayer 2:",player_2_mist,"\n")
-
 
 else:
         if player_1_mist ==3:
